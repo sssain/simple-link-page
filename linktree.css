@@ -1,0 +1,82 @@
+body {
+    background-color: #171717;
+    padding-top: 5rem;
+}
+
+.profilephoto{
+    display: block;
+    height: 150px;
+    width: 150px;
+    margin: 0 auto;
+    border-radius: 100px;
+}
+
+.name{
+    text-align: center;
+    color: #ffff;
+    font-family: Helvetica;
+}
+
+.description{
+    margin-top: -0.5rem;
+    text-align: center;
+    color: #ffff;
+    font-family: Helvetica;
+    font-weight: lighter;
+}
+
+.button1{
+    display: block;
+    color: #171717;
+    background-color: #ffff;
+    height: 70px ;
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: Helvetica;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-style: solid;
+    border-color: #ffff;
+    transition: 0.2s;
+}
+
+
+
+.button1:hover {
+    background-color: #171717;
+    color: #ffff;
+}
+
+
+
+@media (max-width: 613px) {
+    
+    .button1{
+        width: 500px;
+    }
+
+    
+
+}
+
+@media (max-width: 520px) {
+    
+    .button1{
+        width: 400px;
+    }
+
+    
+
+}
+
+@media (max-width: 420px) {
+    
+    .button1{
+        width: 300px;
+    }
+    
+    
+}
+
