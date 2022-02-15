@@ -22,7 +22,7 @@ body {
     text-decoration: none;
     border-radius: 50px;
     display: block;
-    padding-top: 0.3rem;
+    padding-top: 0.4rem;
     transition: 0.2s;
     margin-top: -9.5rem;
     margin-left: 0.5rem;
@@ -35,6 +35,7 @@ body {
     width: 160px;
     height: 50px;
     font-size: 24px;
+    color: #FF1700;
 }
 
 .judul {
